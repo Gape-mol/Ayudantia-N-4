@@ -8,6 +8,9 @@ import static org.junit.jupiter.api.Assertions.*;
 class MainTest {
     Biblioteca biblioteca = new Biblioteca("Biblioteca POO");
 
+    //Los test fueron para probar los casos extraños que no aparecian directamente en el pdf
+    //Como por ejemplo, eliminar libros que no existen, buscar libros que no existen, o asi.
+
     @BeforeEach
     void setUp() {
         Main.inicializarBiblioteca(biblioteca);
